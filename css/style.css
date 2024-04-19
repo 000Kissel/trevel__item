@@ -40,10 +40,11 @@ h6 {
 }
 
 .container {
-
     background-position: center;
     max-width: 1170px;
     margin: 0 auto;
+    position: relative;
+
 }
 
 .header__container {}
@@ -66,8 +67,6 @@ h6 {
     width: 1170px;
     height: 39px;
     font-size: 24px;
-    color: white;
-
 
 }
 
@@ -78,6 +77,7 @@ h6 {
     font-size: 96px;
     color: white;
     text-align: center;
+    padding-top: 154px;
 }
 
 .subtitle {
@@ -85,9 +85,12 @@ h6 {
     text-align: center;
     color: white;
 
+
 }
 
-.btn {}
+.btn {
+    display: flex;
+}
 
 .header__btn {}
 
@@ -98,6 +101,7 @@ h6 {
     width: 191px;
     height: 60px;
     background-color: #00b43d;
+    border-color: white;
 
     border-radius: 8px;
     width: 191px;
@@ -107,5 +111,60 @@ h6 {
     font-size: 24px;
     line-height: 117%;
     color: white;
+    position: absolute;
+    top: 725px;
+    left: 469px;
+}
 
+.place {
+    background: url(../img/mount.png) no-repeat;
+    background-size: cover;
+}
+
+.container {}
+
+.place__container {}
+
+.place__title {
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+}
+
+.content {}
+
+.cart {
+    width: 320px;
+    height: 586px;
+    background: rgba(88, 88, 88, 0.5);
+    display: flex;
+}
+
+.cart__item {}
+
+.img__cart {}
+
+.cart__title {
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+    padding-bottom: 54px;
+}
+
+.cart__subtitle {
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+}
+
+.cart__btn {
+    border-radius: 8px;
+    width: 96px;
+    height: 39px;
+    background: rgba(78, 78, 78, 0.45);
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 233%;
+    color: white;
 }
